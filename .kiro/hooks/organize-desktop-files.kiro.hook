@@ -1,0 +1,15 @@
+{
+  "enabled": true,
+  "name": "Organize Desktop Files",
+  "description": "Helps organize desktop files by first confirming the root folder location and presenting an organization strategy before making any changes",
+  "version": "1",
+  "when": {
+    "type": "userTriggered"
+  },
+  "then": {
+    "type": "askAgent",
+    "prompt": "Follow the workflow defined in #[[file:.kiro/specs/desktop-organization-skill.md]] to organize my desktop files. Execute each step sequentially, waiting for my response before proceeding to the next step."
+  },
+  "workspaceFolderName": "Desktop",
+  "shortName": "organize-desktop-files"
+}
