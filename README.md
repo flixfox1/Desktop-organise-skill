@@ -54,3 +54,85 @@ This directory contains an intelligent desktop organization system that helps yo
 - **Smart Categorization**: Files organized by type and purpose
 - **Quick Access**: Frequently used items stay accessible
 - **Clean Workflow**: Weekly maintenance keeps it organized
+
+### What Gets Moved Where
+
+| Current Desktop Item | New Location | Why |
+|---------------------|--------------|-----|
+| Project folders | `Documents/Dev-Projects/Active/` | Organized by development status |
+| Backup/old projects | `Documents/Dev-Projects/Archive/` | Separated from active work |
+| PDFs, documents | `Documents/Personal/Education/` | Categorized by content type |
+| Images, videos | `Documents/Personal/Media/` | Media files grouped together |
+| Financial docs | `Documents/Personal/Finances/` | Sensitive documents secured |
+| Game shortcuts | `Desktop/Apps/Games/` | Games grouped but accessible |
+| Work app shortcuts | `Desktop/Apps/Productivity/` | Professional tools organized |
+| Utility tools | `Desktop/Apps/Utilities/` | System tools categorized |
+
+## System Components
+
+### 📁 Directory Structure
+```
+.kiro/
+├── hooks/
+│   └── organize-desktop-files.kiro.hook    # The automation trigger
+├── specs/
+│   └── desktop-organization-skill.md       # Complete workflow definition
+└── README.md                               # This guide
+```
+
+### 🔧 The Hook System
+- **Trigger**: User-activated (you control when it runs)
+- **Safety**: Always asks permission before moving files
+- **Interactive**: Guides you through each decision
+- **Flexible**: Multiple organization strategies available
+
+### 📋 The Specification
+The `desktop-organization-skill.md` file contains:
+- **Part 1**: Best practices guide for users
+- **Part 2**: Detailed 7-step workflow for the AI agent
+- **Technical details**: File handling, error management, validation
+
+## Advanced Options
+
+### Organization Strategies
+When you run the hook, you can choose from:
+
+1. **Full Organization** (Recommended)
+   - Creates complete folder structure
+   - Moves all files to appropriate locations
+   - Organizes shortcuts into categories
+
+2. **Icon Sort Only**
+   - Skips file moving
+   - Provides manual guidance for desktop icon arrangement
+   - Good for minor cleanup without major changes
+
+3. **Custom Categories**
+   - Modify the proposed folder structure
+   - Choose different categorization approaches
+   - Adapt to your specific workflow needs
+
+### Maintenance
+- **Weekly Cleanup**: Built-in recommendations for ongoing organization
+- **Flexible Structure**: Easy to modify folder organization as needs change
+- **Repeatable Process**: Run the hook anytime your desktop gets cluttered
+
+## Safety Features
+
+- ✅ **No Automatic Deletion**: Files are moved, never deleted without permission
+- ✅ **Confirmation Steps**: You approve each major action
+- ✅ **Error Handling**: Graceful handling of locked files or permission issues
+- ✅ **Rollback Friendly**: All moves are reversible
+- ✅ **Progress Tracking**: See exactly what's happening at each step
+
+## Getting Started
+
+**Ready to transform your desktop?**
+
+1. Make sure you're in your desktop workspace in Kiro
+2. Open the Agent Hooks panel
+3. Click "Organize Desktop Files"
+4. Follow the interactive prompts
+5. Enjoy your clean, organized desktop!
+
+The entire process typically takes 5-10 minutes and will dramatically improve your desktop workflow.
